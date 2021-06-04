@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Instagram Post</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <div class="wrapper centered">
+        <div class="flex-container">
+            <div class="post">
+                <!-- Post Head -->
+                <div class="post-head">
+                    <div class="post-head-account">
+                        <div class="user-photo">
+                            <i class="fab fa-html5 fa-2x"></i>
+                        </div>
+                        <div class="user-name">
+                            <p class="user-name-title">HTML5</p>
+                            <p>Rigoberto</p>
+                        </div>
+                    </div>
+                    <div class="post-head-menu">
+                        <button id="buttonVerticalMenuObject" class="buttonEnabled" value="unmarked">
+                            <i id="buttonVerticalMenuText" class="fontawesome-button fas fa-ellipsis-v"></i>
+                        </button>
+                        <nav id="verticalMenu" class="verticalMenu">
+                            <ul>
+                                <li><a href="" onclick="return false;">Profile</a></li>
+                                <li><a href="" onclick="return false;">Configuration</a></li>
+                                <li><a href="" onclick="return false;">Invite</a></li>
+                                <li><a href="" onclick="return false;">Favorites</a></li>
+                                <li><a href="" onclick="return false;">Close</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Post Body / Image -->
+                <div class="post-body">
+                    <img src="./imagenes/1*9i-NFuLM_zXNb6fAaBudfg.jpeg" alt="picture">
+                </div>
+                <!-- Post Foot -->
+                <div class="post-foot">
+                    <div>
+                        <form class="post-foot-menu">
+                            <div class="left">
+                                <button id="buttonLikeObject" class="buttonEnabled" value="unmarked">
+                                    <i id="buttonLikeText" class="fontawesome-button far fa-heart fa-3x"></i>
+                                </button>
+                                <button disabled="true"><i class="fontawesome-button far fa-comment fa-3x"></i></button>
+                                <button disabled="true"><i
+                                        class="fontawesome-button far fa-paper-plane fa-3x"></i></button>
+                            </div>
+                            <div class="right">
+                                <button id="buttonBookmarkObject" class="buttonEnabled" value="unmarked">
+                                    <i id="buttonBookmarkText" class="fontawesome-button far fa-bookmark fa-3x"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="post-foot-text">
+                        <p>Liked by <strong>4GeeksAcademy, html5, Web</strong> and <strong>100,000 others</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
